@@ -22,7 +22,7 @@ The goal is to estimate higher uncertainty when speech provides less reliable sp
 
 ## 📚 Papers and Implementations
 
-- **[$\mathcal{U}^3$-xi: Pushing the Boundaries of Speaker Recognition by Incorporating Uncertainty](https://doi.org/10.1109/TASLPRO.2026.3739133)** (**IEEE TASLP, 2026**) — official implementation of multi-view uncertainty estimation, uncertainty-aware training, and uncertainty-aware cosine scoring.
+- **[$\mathcal{U}^3$-xi: Pushing the Boundaries of Speaker Recognition by Incorporating Uncertainty](https://ieeexplore.ieee.org/abstract/document/11716556)** (**IEEE TASLP, 2026**) — official implementation of multi-view uncertainty estimation, uncertainty-aware training, and uncertainty-aware cosine scoring.
 - **[Towards Robust Uncertainty-Aware Speaker Modeling](https://arxiv.org/abs/2607.04937)** — official implementation of inter- and intra-speaker-aware uncertainty modeling with AAM-Softmax, AM-Softmax, and SphereFace2. The UCDA method described in the paper is not included in this release.
 - **[A Unified Uncertainty-Aware Back-End for Speaker Verification: Scoring, Normalization, and Calibration](https://arxiv.org/abs/2609.01221)** — official implementation of uncertainty-aware cosine scoring, UAS-Norm, and UQMF calibration.
 - **[Disentangling Voice and Content with Self-Supervision for Speaker Recognition](https://proceedings.neurips.cc/paper_files/paper/2023/hash/9d276b0a087efdd2404f3295b26c24c1-Abstract-Conference.html)** (**RecXi, NeurIPS 2023**) — an **unofficial implementation and extension** with parallel RecXi pooling, a multi-view Transformer precision estimator, and uncertainty-aware AAM-Softmax. See the [RecXi implementation, training recipe, and results](examples/voxceleb/v2/readme_recxi.md).
@@ -50,7 +50,9 @@ Run recipe scripts from `examples/voxceleb/v2` after configuring the dataset pat
   <a href="https://arxiv.org/abs/2601.15719">
     <img src="https://img.shields.io/badge/arXiv-2601.15719-b31b1b.svg" alt="arXiv:2601.15719"/>
   </a>
-  <img src="https://img.shields.io/badge/IEEE_TASLP-Accepted-success" alt="Accepted by IEEE TASLP"/>
+  <a href="https://ieeexplore.ieee.org/abstract/document/11716556">
+    <img src="https://img.shields.io/badge/IEEE_TASLP-Accepted-success" alt="Accepted by IEEE TASLP"/>
+  </a>
   <a href="https://huggingface.co/JeffeLI/u_cube_xi">
     <img src="https://img.shields.io/badge/Hugging%20Face-Model-yellow?logo=huggingface" alt="Models on Hugging Face"/>
   </a>
