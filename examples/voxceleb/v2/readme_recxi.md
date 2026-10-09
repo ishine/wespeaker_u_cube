@@ -216,12 +216,13 @@ The minDCF parameters are `p_target=0.01`, `c_miss=1`, and `c_fa=1`.
   doi     = {10.1109/LSP.2021.3091932}
 }
 
-@article{li2026u3xi,
+@article{11716556,
   author  = {Junjie Li and Kong Aik Lee},
-  title   = {{U3}-xi: Pushing the Boundaries of Speaker Recognition by Incorporating Uncertainty},
-  journal = {arXiv preprint arXiv:2601.15719},
+  title   = {{$\mathcal{U}^{3}$-xi: Pushing the Boundaries of Speaker Recognition by Incorporating Uncertainty}},
+  journal = {IEEE Transactions on Audio, Speech and Language Processing},
   year    = {2026},
-  url     = {https://arxiv.org/abs/2601.15719}
+  pages   = {1--16},
+  doi     = {10.1109/TASLPRO.2026.3739133}
 }
 
 @article{li2026robust,

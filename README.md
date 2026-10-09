@@ -22,7 +22,7 @@ The goal is to estimate higher uncertainty when speech provides less reliable sp
 
 ## 📚 Papers and Implementations
 
-- **[$\mathcal{U}^3$-xi: Pushing the Boundaries of Speaker Recognition by Incorporating Uncertainty](https://arxiv.org/abs/2601.15719)** (**accepted by IEEE TASLP**) — official implementation of multi-view uncertainty estimation, uncertainty-aware training, and uncertainty-aware cosine scoring.
+- **[$\mathcal{U}^3$-xi: Pushing the Boundaries of Speaker Recognition by Incorporating Uncertainty](https://doi.org/10.1109/TASLPRO.2026.3739133)** (**IEEE TASLP, 2026**) — official implementation of multi-view uncertainty estimation, uncertainty-aware training, and uncertainty-aware cosine scoring.
 - **[Towards Robust Uncertainty-Aware Speaker Modeling](https://arxiv.org/abs/2607.04937)** — official implementation of inter- and intra-speaker-aware uncertainty modeling with AAM-Softmax, AM-Softmax, and SphereFace2. The UCDA method described in the paper is not included in this release.
 - **[A Unified Uncertainty-Aware Back-End for Speaker Verification: Scoring, Normalization, and Calibration](https://arxiv.org/abs/2609.01221)** — official implementation of uncertainty-aware cosine scoring, UAS-Norm, and UQMF calibration.
 - **[Disentangling Voice and Content with Self-Supervision for Speaker Recognition](https://proceedings.neurips.cc/paper_files/paper/2023/hash/9d276b0a087efdd2404f3295b26c24c1-Abstract-Conference.html)** (**RecXi, NeurIPS 2023**) — an **unofficial implementation and extension** with parallel RecXi pooling, a multi-view Transformer precision estimator, and uncertainty-aware AAM-Softmax. See the [RecXi implementation, training recipe, and results](examples/voxceleb/v2/readme_recxi.md).
@@ -323,13 +323,13 @@ If you use this repository in your research, please cite the papers relevant to 
   doi       = {10.1109/ICASSP55912.2026.11463369}
 }
 
-@article{li2026u3xi,
+@article{11716556,
   author  = {Junjie Li and Kong Aik Lee},
-  title   = {{U3}-xi: Pushing the Boundaries of Speaker Recognition by Incorporating Uncertainty},
-  journal = {arXiv preprint arXiv:2601.15719},
+  title   = {{$\mathcal{U}^{3}$-xi: Pushing the Boundaries of Speaker Recognition by Incorporating Uncertainty}},
+  journal = {IEEE Transactions on Audio, Speech and Language Processing},
   year    = {2026},
-  doi     = {10.48550/arXiv.2601.15719},
-  url     = {https://arxiv.org/abs/2601.15719}
+  pages   = {1--16},
+  doi     = {10.1109/TASLPRO.2026.3739133}
 }
 
 @article{li2026robust,
